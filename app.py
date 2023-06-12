@@ -18,8 +18,8 @@ st.write("##### Nama  : Yanuar Pratama Dicha Putra")
 st.write("##### Nim   : 210411100190")
 st.write("##### Kelas : Penambangan Data B ")
 st.write("##### E-mail : yanuarprtamadp@gmail.com")
-st.write("##### Github : ")
-st.write("##### Link Colab : ")
+st.write("##### Github : https://github.com/yanuarprtama")
+st.write("##### Link Colab : https://colab.research.google.com/drive/1f9ZeJ5kNZ_adGFuzI5wYgPKlsy_xJyow?usp=sharing")
 
 description, preprocessing, pca_menu, modeling, implementation = st.tabs(
     ["Description", "Preprocessing", "PCA", "Modeling", "Implementation"])
@@ -82,7 +82,7 @@ with description:
     st.write("""M = Mass is malignant/kanker ganas""")
 
     st.write("""# Dataset """)
-    df = pd.read_csv('https://raw.githubusercontent.com/yanuarprtama/21-190_yanuarprtamadp.github.io/main/brca.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/yanuarprtama/Pendata-UAS/main/brca.csv')
     st.dataframe(df)
 
 with preprocessing:
